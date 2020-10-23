@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kevin Murray">
+    <!--^^^^THIS IS REQUIRED FOR YOUR GRADES IN THE FUTURE ^^^^-->
+    <meta name="description" content="The order page for The Peck Company. Where we sell rubber ducks at very low and reasonable prices">
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:image" content="" type="image/x-icon">
+    <meta property="og:description" content="The order page for the peck company">
+    <meta property="og:title" content="The Peck Company">
+
+    <title>The Peck Company Order Form</title>
+    <link rel="stylesheet" href="formStyle.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- logo -->
+
+    <header>
+        <a href="index.html" class="logo"><img src="images/Logo Pixels Background.png" alt="" width=300px height=100px></a>
+    </header>
+
+    <!-- Nav Bar -->
+
+    <nav>
+        <ul>
+            <li>
+                <a href="gallery.html">Gallery</a>
+            </li>
+            <li>
+                <a href="services.html">Services</a>
+            </li>
+            <li>
+                <a href="form.html">Order</a>
+            </li>
+        </ul>
+
+        <form>
+            <input type="search" name="query" placeholder="Search Site">
+            <button class="submit"></button>
+        </form>
+    </nav>
+
+    <!-- Main -->
+
+    <main>
+
+        <form action="" method="POST">
+            <section>
+                <h1>Rubber Duck Order Form</h1>
+                <fieldset class="checkboxes">
+                    <legend>What ducks do you want to order?</legend>
+                    <input type="checkbox" id="greenDuck" name="greenDuck" value="greenDuck">
+                    <label for="greenDuck"><h1>Green Duck</h1></label><br>
+
+                    <input type="checkbox" id="firemanDuck" name="firemanDuck" value="firemanDuck">
+                    <label for="firemanDuck"><h1>Fireman Duck</h1></label><br>
+
+                    <input type="checkbox" id="pikaDuck" name="pikaDuck" value="pikaDuck">
+                    <label for="pikaDuck"><h1>Pikachu Duck</h1></label><br>
+
+                    <input type="checkbox" id="elvisDuck" name="elvisDuck" value="elvisDuck">
+                    <label for="elvisDuck"><h1>Elvis Duck</h1> </label><br>
+
+                    <input type="checkbox" id="rainbowDuck" name="rainbowDuck" value="rainbowDuck">
+                    <label for="rainbowDuck"><h1>Rainbow Duck</h1></label><br>
+
+                    <input type="checkbox" id="unicornDuck" name="unicornDuck" value="unicornDuck">
+                    <label for="unicornDuck"><h1>Unicorn Duck</h1></label><br>
+
+                    <input type="checkbox" id="batmanDuck" name="batmanDuck" value="batmanDuck">
+                    <label for="batmanDuck"><h1>Batman Duck</h1></label><br>
+
+                    <input type="checkbox" id="footballDuck" name="footballDuck" value="footballDuck">
+                    <label for="footballDuck"><h1>Football Duck</h1></label><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Special Requests</legend>
+                    <ul style="list-style-type: none;">
+                        <li>
+                            <label for="yes">
+                        <input type="radio" id="yes" name="yesOrNo" value="yes">
+                        <h1>Yes</h1>
+                        </label>
+                        </li>
+                        <li>
+                            <label for="no">
+                        <input type="radio" id="no" name="yesOrNo" value="A">
+                        <h1>No</h1>
+                        </label>
+                        </li>
+                        <li>
+                            <label for="msg">If so then what?</label>
+                            <textarea id="msg" name="user_message"></textarea>
+                        </li>
+                    </ul>
+
+            </section>
+
+            </fieldset>
+            <fieldset>
+                <legend>Contact Info</legend>
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="user_name">
+                    </li>
+
+                    <li>
+                        <label for="mail">E-Mail</label>
+                        <input type="text" id="mail" name="user_mail">
+                    </li>
+
+                    <li>
+                        <label for="cardNumber">Credit Card Number</label>
+                        <input type="text" id="cardNumber" name="user_cardNumber">
+                    </li>
+
+                    <li>
+                        <label for="address">Address</label>
+                        <input type="text" id="address" name="user_address">
+                    </li>
+
+                    <li>
+                        <button type="submit">Order</button>
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>Call us at 602-456-2321 or email us at PeckCompany@gmail.com.<br> &#169 Copyright 2020-2020 by Peck Company. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
